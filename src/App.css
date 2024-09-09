@@ -1,0 +1,55 @@
+
+
+p {
+   font-size: 1.1em;
+   line-height: 1.6em;
+   padding: 20px 20px 20px 40px;
+   border-left: none;
+   position: relative;
+   text-indent: -19px;
+}
+
+.block_content {
+    min-height: 400px;
+    padding-top: 40px;
+    text-align: left;
+}
+
+ p {
+   font-size: 1em;
+}
+
+p:before,
+p:after {
+   font-family: Arial, serif;
+   font-size: 2.5em;
+   vertical-align: middle;
+   line-height: 0;
+}
+
+p:before {
+   margin-right: 4px;
+}
+
+p:after {
+   margin-left: 3px;
+}
+
+p.blockstyle
+{
+   font-style: italic;
+}
+
+.blockstyle {
+   display: inline
+}
+
+.blockstyle {
+   border-left: 3px solid #f0715f;
+    position: relative;
+}
+
+p:before,
+p:after {
+      color: #f0715f;
+}
