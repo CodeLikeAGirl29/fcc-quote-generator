@@ -47,21 +47,22 @@ function App() {
 							</p>
 						</article>
 					)}
-					<button
-						onClick={generateRandomQuote}
-						className='btn btn-primary border border-black p-2 rounded-lg hover:text-black hover:bg-white transition duration-75'
-						id='new-quote'
-					>
-						Generate Quote
-					</button>
-					<a
-						href=''
-						className='btn btn-primary border border-black p-2 rounded-lg hover:text-black hover:bg-white transition duration-75'
-						id='tweet-quote'
-						target='_blank'
-					>
-						<CiTwitter />
-					</a>
+					<div className='btn-group' role='group'>
+						<button
+							onClick={generateRandomQuote}
+							className='btn btn-primary border border-black p-2 rounded-lg hover:text-black hover:bg-white transition duration-75'
+							id='new-quote'
+						>
+							Generate Quote
+						</button>
+						<button
+							className='btn btn-secondary border border-black p-2 rounded-lg hover:text-black hover:bg-white transition duration-75'
+							id='tweet-quote'
+							target='_blank'
+						>
+							<CiTwitter /> Tweet
+						</button>
+					</div>
 				</div>
 			</div>
 		</div>
